@@ -10,7 +10,7 @@ it('facebook', function (){
     cy.get('#username').type ('tomsmitrrh')
     cy.get('#password').type ('SuperSecretPasswrrord!')
     cy.get('.fa').click()
-    cy.contains('Your username is invalid!').should('be.visible');
+   cy.contains('Your username is invalid!').should('be.visible');
 
 //Valid login
     cy.get('#username').type ('tomsmith')
