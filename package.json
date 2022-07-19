@@ -1,0 +1,17 @@
+{
+  "name": "facebook",
+  "version": "1.0.0",
+  "description": "facebook automation",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^9.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test",
+    "cypress:open": "cypres open"
+
+  },
+  "author": "",
+  "license": "ISC"
+}
